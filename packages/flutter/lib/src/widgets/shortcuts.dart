@@ -402,7 +402,11 @@ class ShortcutMapProperty extends DiagnosticsProperty<Map<ShortcutActivator, Int
 class SingleActivator with Diagnosticable implements ShortcutActivator {
 =======
 class SingleActivator with Diagnosticable, MenuSerializableShortcut implements ShortcutActivator {
+<<<<<<< HEAD
 >>>>>>> fb57da5f945d02ef4f98dfd9409a72b7cce74268
+=======
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
+>>>>>>> 95970e21cbba5c8c44b6888ec9e9d05dc524465a
   /// Triggered when the [trigger] key is pressed while the modifiers are held.
   ///
   /// The `trigger` should be the non-modifier key that is pressed after all the

@@ -7976,7 +7976,11 @@ void main() {
       tester.testTextInput.log.map((MethodCall m) => m.method),
       logOrder,
 =======
+<<<<<<< HEAD
 >>>>>>> fb57da5f945d02ef4f98dfd9409a72b7cce74268
+=======
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
+>>>>>>> 95970e21cbba5c8c44b6888ec9e9d05dc524465a
     );
 
     expect(scrollController1.attached, isTrue);
@@ -8036,7 +8040,11 @@ void main() {
 =======
     expect(scrollController1.attached, isFalse);
     expect(scrollController2.attached, isFalse);
+<<<<<<< HEAD
 >>>>>>> fb57da5f945d02ef4f98dfd9409a72b7cce74268
+=======
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
+>>>>>>> 95970e21cbba5c8c44b6888ec9e9d05dc524465a
 
     // Change scrollController to back controller 2.
     await tester.pumpWidget(
@@ -8131,7 +8139,11 @@ void main() {
       },
       throwsAssertionError,
     );
+<<<<<<< HEAD
 >>>>>>> fb57da5f945d02ef4f98dfd9409a72b7cce74268
+=======
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
+>>>>>>> 95970e21cbba5c8c44b6888ec9e9d05dc524465a
   });
 
   group('batch editing', () {
@@ -8175,7 +8187,11 @@ void main() {
 =======
       // Connect.
       await tester.showKeyboard(find.byType(EditableText));
+<<<<<<< HEAD
 >>>>>>> fb57da5f945d02ef4f98dfd9409a72b7cce74268
+=======
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
+>>>>>>> 95970e21cbba5c8c44b6888ec9e9d05dc524465a
 
       final EditableTextState state = tester.state<EditableTextState>(find.byWidget(editableText));
       state.updateEditingValue(const TextEditingValue(text: 'remote value'));
@@ -12090,7 +12106,11 @@ void main() {
     expect(tester.takeException(), null);
   // On web, the text selection toolbar cut button is handled by the browser.
   }, skip: kIsWeb); // [intended]
+<<<<<<< HEAD
 >>>>>>> fb57da5f945d02ef4f98dfd9409a72b7cce74268
+=======
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
+>>>>>>> 95970e21cbba5c8c44b6888ec9e9d05dc524465a
 }
 
 class UnsettableController extends TextEditingController {
